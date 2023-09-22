@@ -19,7 +19,7 @@
 
 ## Resolving Issues
 - We're going to vote & majority will make the decision, in the case of a tie we will rock, paper, scissors
-- If an issue cannot be resolved within the group, Professor Buzard will have the final say
+- If an issue cannot be resolved within the group, Professor Buzard will have the final say. In terms of the extent of her final say, if we have a disagreement within the group that we cannot resolve, we will lay out all of the arguments to Professor Buzard and she will have the final say. (Like a court judge) If we are choosing either A or B she chooses either A or B or can give a suggestion for C. If we do not like C or if the decsion to choose C is not made by all members of the group, we will fall on the decsion made by Professor Buzard, either A or B.
 
 ## Behavior
 - Respect the committments of the team members & the other things they have going on in their lives
