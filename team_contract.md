@@ -35,3 +35,4 @@
 ## Signatures
 Abigail Mondin 9/22/23
 Luke Sippel    9/22/23
+Sophie Haber   9/22/23
