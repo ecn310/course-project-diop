@@ -37,4 +37,4 @@
 Abigail Mondin 9/22/23 updated 9/27/23
 Luke Sippel    9/22/23 updated 9/27/23
 Sophie Haber   9/22/23 updated 9/27/23
-Ixora Artis    9/22/23
+Ixora Artis    9/22/23 updated 9/27/23
