@@ -29,3 +29,4 @@ graph bar (count) pz262 if pz262 == 1, over (pz216)
 *Creating tables for rate memory test pd101 and pd501
 table pd101
 table pd501
+table pb014
