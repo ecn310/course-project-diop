@@ -37,7 +37,14 @@ table pd101
 table pd501
 table pb014
 
-**Exploring the variable pd554
+**Exploring the variable pd554 (get lost in familiar places)
 *initial exploration
 codebook pd554
 sum pd554, detail
+
+*Creating a bar graph for pd554 over pz216 
+generate pd554_yes = 0
+replace pd554_yes = 1 if pd554 == 1
+generate pd554_no = 0
+replace pd554_no = 5 if pd554 == 5
+graph bar pd554_yes pd554_no, over (pz216)
