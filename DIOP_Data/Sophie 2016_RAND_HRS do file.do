@@ -74,3 +74,9 @@ replace pv009_yes = 1 if pv009 == 1
 generate pv009_no = 0 
 replace pv009_no = 1 if pv009 == 5
 graph bar pv009_yes pv009_no, over (pc273)
+
+* Create a crosstabulation table
+tabulate pc273 pb016, row col
+
+* Cross-tabulate dementia and high school diploma/GED
+tabulate pc273 pb015, row col
