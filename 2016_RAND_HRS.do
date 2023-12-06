@@ -46,5 +46,5 @@ sum pd554, detail
 generate pd554_yes = 0
 replace pd554_yes = 1 if pd554 == 1
 generate pd554_no = 0
-replace pd554_no = 5 if pd554 == 5
+replace pd554_no = 1 if pd554 == 5
 graph bar pd554_yes pd554_no, over (pz216)
