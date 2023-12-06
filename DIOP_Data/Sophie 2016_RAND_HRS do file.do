@@ -48,3 +48,29 @@ replace pd554_yes = 1 if pd554 == 1
 generate pd554_no = 0
 replace pd554_no = 1 if pd554 == 5
 graph bar pd554_yes pd554_no, over (pz216)
+
+*Creating a bar graph for pd554 over pc273 (ever had dementia), using the same generate statements as above
+generate pd554_yes = 0
+replace pd554_yes = 1 if pd554 == 1
+generate pd554_no = 0 
+replace pd554_no = 1 if pd554 == 5
+graph bar pd554_yes pd554_no, over (pc273)
+
+**Exploring the variable pv009 (forgetful during daily activities)
+*initial exploration
+codebook pv009
+sum pv009, detail 
+
+*Creating a bar graph for pv009 over pz216 
+generate pv009_yes = 0 
+replace pv009_yes = 1 if pv009 == 1
+generate pv009_no = 0 
+replace pv009_no = 1 if pv009 == 5
+graph bar pv009_yes pv009_no, over (pz216)
+
+*Creating a bar graph for pv009 over pc273 (ever had dementia), using the same generate statements as above
+generate pv009_yes = 0 
+replace pv009_yes = 1 if pv009 == 1
+generate pv009_no = 0 
+replace pv009_no = 1 if pv009 == 5
+graph bar pv009_yes pv009_no, over (pc273)
