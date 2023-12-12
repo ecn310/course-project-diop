@@ -55,6 +55,7 @@ replace pd554_yes = 1 if pd554 == 1
 generate pd554_no = 0 
 replace pd554_no = 1 if pd554 == 5
 graph bar pd554_yes pd554_no, over (pc273)
+*Using the graph editor we added labels for the values across the horizontal axis, added more meaningful descriptions in the legend, and added axis labels
 
 **Exploring the variable pv009 (forgetful during daily activities)
 *initial exploration
