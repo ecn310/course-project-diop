@@ -47,15 +47,14 @@ generate pd554_yes = 0
 replace pd554_yes = 1 if pd554 == 1
 generate pd554_no = 0
 replace pd554_no = 1 if pd554 == 5
-graph bar pd554_yes pd554_no, over (pz216)
+graph bar pd554_yes pd554_no, over (pz216) percent stack legend(position(12) rows(2) label(1 "respondents who get lost in familiar places") label(2 "respondents who don't get lost in familiar places")) blabel(total, format(%9.0f))
 
 *Creating a bar graph for pd554 over pc273 (ever had dementia), using the same generate statements as above
 generate pd554_yes = 0
 replace pd554_yes = 1 if pd554 == 1
 generate pd554_no = 0 
 replace pd554_no = 1 if pd554 == 5
-graph bar pd554_yes pd554_no, over (pc273)
-*Using the graph editor we added labels for the values across the horizontal axis, added more meaningful descriptions in the legend, and added axis labels
+graph bar pd554_yes pd554_no, over (pc273, label(angle(45)) relabel(1 "Yes" 2 "Now has condition" 3 "Now doesn't have condition" 4 "No" 5 "Don't know" 6 "Refused")) percent stack legend(position(12) rows(2) label(1 "respondents who get lost in familiar places") label(2 "respondents who don't get lost in familiar places")) blabel(total)
 
 **Exploring the variable pv009 (forgetful during daily activities)
 *initial exploration
@@ -67,11 +66,11 @@ generate pv009_yes = 0
 replace pv009_yes = 1 if pv009 == 1
 generate pv009_no = 0 
 replace pv009_no = 1 if pv009 == 5
-graph bar pv009_yes pv009_no, over (pz216)
+graph bar pv009_yes pv009_no, over (pz216) percent stack legend(position(12) rows(2) label(1 "forgetful during daily activities") label(2 "not forgetful during daily activities")) blabel(total, format(%9.0f))
 
 *Creating a bar graph for pv009 over pc273 (ever had dementia), using the same generate statements as above
 generate pv009_yes = 0 
 replace pv009_yes = 1 if pv009 == 1
 generate pv009_no = 0 
 replace pv009_no = 1 if pv009 == 5
-graph bar pv009_yes pv009_no, over (pc273)
+graph bar pv009_yes pv009_no, over (pc273, label(angle(45)) relabel(1 "Yes" 2 "Now has condition" 3 "Now doesn't have condition" 4 "No" 5 "Don't know" 6 "Refused")) percent stack legend(position(12) rows(2) label(1 "forgetful during daily activities") label(2 "not forgetful during daily activities")) blabel(total)
