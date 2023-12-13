@@ -74,3 +74,9 @@ replace pv009_yes = 1 if pv009 == 1
 generate pv009_no = 0 
 replace pv009_no = 1 if pv009 == 5
 graph bar pv009_yes pv009_no, over (pc273, label(angle(45)) relabel(1 "Yes" 2 "Now has condition" 3 "Now doesn't have condition" 4 "No" 5 "Don't know" 6 "Refused")) percent stack legend(position(12) rows(2) label(1 "forgetful during daily activities") label(2 "not forgetful during daily activities")) blabel(total)
+
+* Create a crosstabulation table
+tabulate pc273 pb016, row col
+
+* Cross-tabulate dementia and high school diploma/GED
+tabulate pc273 pb015, row col
