@@ -29,9 +29,6 @@ sum pz216, detail
 *Creating a frequency histogram 
 histogram pz216, frequency
 
-*Creating a bar graph for pz262 over pz216
-graph bar (count) pz262 if pz262 == 1, over (pz216) 
-
 **Exploring the variable pd554
 *initial exploration
 codebook pd554
