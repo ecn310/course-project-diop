@@ -80,3 +80,6 @@ tabulate pc273 pb016, row col
 
 * Cross-tabulate dementia and high school diploma/GED
 tabulate pc273 pb015, row col
+
+pwcorr chart
+pwcorr pc273 pz216, sig
