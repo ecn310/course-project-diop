@@ -32,11 +32,6 @@ histogram pz216, frequency
 *Creating a bar graph for pz262 over pz216
 graph bar (count) pz262 if pz262 == 1, over (pz216) 
 
-*Creating tables for rate memory test pd101 and pd501
-table pd101
-table pd501
-table pb014
-
 **Exploring the variable pd554
 *initial exploration
 codebook pd554
