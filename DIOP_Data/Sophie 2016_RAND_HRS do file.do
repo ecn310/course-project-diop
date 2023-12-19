@@ -80,4 +80,4 @@ ssc install outreg2
 outreg2 pc273 pb016 using ctab.doc, replace cross noaster
 
 *Export table to word doc to upload
-outreg2 pc273 pb016 using ctab.doc, replace cross noaster
+outreg2 pc273 pb015 using ctab.doc, replace cross noaster
