@@ -1,7 +1,7 @@
 # The Effect of Education on Dementia and Cognitive Health
 This repository contains the supportining materials and replication package for the report on prolonged education's impact on dementia and cognitive health in older ages by Ixora Artis, Sophie Haber, Abigail Mondin, and Luke Sippel.
 ### Repository Content 
-- Final Report
+- [Final Report](https://github.com/ecn310/course-project-diop/blob/main/DIOP%20Final%20Submission%20%26%20Packages/Final%20Report.pdf)
 - Replication package
   - Reproducible [do file](2016_RAND_HRS.do) 
   - [Dataset with a reduced number of variables](h16f2c_reduced_variables.dta) (note: the original dataset was too big to put onto Github)
