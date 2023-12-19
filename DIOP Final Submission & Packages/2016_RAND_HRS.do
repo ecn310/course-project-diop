@@ -81,5 +81,14 @@ tabulate pc273 pb016, row col
 * Cross-tabulate dementia and high school diploma/GED
 tabulate pc273 pb015, row col
 
+*Use this command to install the outreg2 package
+ssc install outreg2
+
+*Export table to word doc to upload
+outreg2 pc273 pb016 using ctab.doc, replace cross noaster
+
+*Export table to word doc to upload
+outreg2 pc273 pb015 using ctab.doc, replace cross noaster
+
 pwcorr chart
 pwcorr pc273 pz216, sig
