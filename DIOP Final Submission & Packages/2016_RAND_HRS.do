@@ -27,7 +27,7 @@ sum pz262, detail
 codebook pz216
 sum pz216, detail 
 *Creating a frequency histogram 
-histogram pz216, frequency
+histogram pz216, frequency xtitle("respondent years of education")
 
 *Creating a bar graph for pz262 over pz216
 graph bar (count) pz262 if pz262 == 1, over (pz216) 
