@@ -5,6 +5,7 @@ This repository contains the supportining materials and replication package for 
 - Replication package
   - Reproducible [do file](2016_RAND_HRS.do) 
   - [Dataset with a reduced number of variables](h16f2c_reduced_variables.dta) (note: the original dataset was too big to put onto Github)
+  - [Overleaf .tex file](https://github.com/ecn310/course-project-diop/blob/main/DIOP%20Final%20Submission%20%26%20Packages/main.tex)
 ### Accessing the 2016 RAND HRS dataset
 1. Navigate to https://hrsdata.isr.umich.edu/data-products/rand
 2. Click on [2016 RAND HRS Fat File](https://hrsdata.isr.umich.edu/data-products/2016-rand-hrs-fat-file) under "Biennial Products"
