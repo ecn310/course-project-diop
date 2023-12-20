@@ -6,6 +6,7 @@ This repository contains the supportining materials and replication package for 
   - Reproducible [do file](2016_RAND_HRS.do) 
   - [Dataset with a reduced number of variables](h16f2c_reduced_variables.dta) (note: the [original dataset](https://sumailsyr-my.sharepoint.com/:u:/r/personal/srhaber_syr_edu/Documents/DIOP/2016%20RAND%20HRS/h16f2c_STATA%20(1)/h16f2c.dta?csf=1&web=1&e=01bzGY) was too big to put onto Github so it can be found in the shared OneDrive in the DIOP folder, 2016 RAND HRS subfolder, h16f2c_STATA (1) subfolder, labeled as h16f2c.dta)
   - [Overleaf .tex file](https://github.com/ecn310/course-project-diop/blob/main/DIOP%20Final%20Submission%20%26%20Packages/Final%20Report%20from%20Overleaf/main.tex)
+  -  [Subfolder](https://github.com/ecn310/course-project-diop/tree/main/DIOP%20Final%20Submission%20%26%20Packages/Final%20Report%20from%20Overleaf) within the final submission folder contains all of the necessary files to compile the .tex file for the final report 
 ### Accessing the 2016 RAND HRS dataset
 1. Navigate to https://hrsdata.isr.umich.edu/data-products/rand
 2. Click on [2016 RAND HRS Fat File](https://hrsdata.isr.umich.edu/data-products/2016-rand-hrs-fat-file) under "Biennial Products"
